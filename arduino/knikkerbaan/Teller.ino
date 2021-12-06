@@ -27,7 +27,7 @@ class Teller {
       if (wordtOnderbroken()) {
         if (millis() - laatstOnderbroken > DEBOUNCE_TIME) {
           verhoogAantal();
-          //Serial.println(aantal);
+          Serial.println(aantal);
         } 
       }
 
