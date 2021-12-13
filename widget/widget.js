@@ -17,7 +17,7 @@ function setup() {
   // Maak het canvas van je widget
   createCanvas(300, 600);
 
-  teller = new Teller(150, 50);
+  teller = new Teller(200, 30);
 
   // maak een button en stel deze in
 
@@ -47,13 +47,13 @@ function draw() {
   // hieronder wordt schematisch een knikkerbaan getekend
 
   // achtergrond: houtkleur, kies gerust iets anders
-  background(175, 144, 105);
+  background(50, 50, 50);
 
   // twee dikke strepen als 'opvangbak'
   stroke(0, 0, 0);
   strokeWeight(10);
-  line(50, 20, 135, 60);
-  line(250, 20, 165, 60);
+  line(50, 20, 200, 50);
+  line(250, 70, 100, 100);
 
   teller.show();
 }
