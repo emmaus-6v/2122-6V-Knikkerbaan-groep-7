@@ -21,7 +21,7 @@ function setup() {
 
   // maak een button en stel deze in
 
-  button = createbutton('Verstuur');
+  button = createButton('Verstuur');
   button.position = (200,575);
   button.mouseClicked(stuurNieuweInstellingen);
 
