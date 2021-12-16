@@ -92,12 +92,12 @@ function stuurNieuweInstellingen() {
   var request = new XMLHttpRequest();
 
   // maak een http-verzoek
-  request.open('GET', '/api/get/sensordata?wachtijd=' + wachtijdInput.value(), true)
+  request.open('GET', '/api/set/instellingen?wachtijd=' + wachtijdInput.value(), true)
 
   // wat uitvoeren als het antwoord teruggegeven wordt?
   request.onload = function () {
     if (request.status == 200) {
-      console.log("Server accepteerde instellingen");
+      console.log("server accepteerde instellingen");
     }
 
     else {
