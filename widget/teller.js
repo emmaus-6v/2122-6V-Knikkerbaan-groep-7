@@ -12,7 +12,7 @@ class Teller {
   show() {
     noStroke();               // geen rand
     fill(255, 255, 255);      // wit
-    textSize(14);
+    textSize(20);
     // print aantal knikkers bovenin
     text(this.aantal, this.x, this.y);
   }

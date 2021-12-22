@@ -1,4 +1,5 @@
 
+
 // globale variabelen
 var aantalKnikkersBoven = 0;    // aantal knikkers dat bovenin is binnengekomen
 var wachttijd = 15;             // wachttijd voor het poortje in seconden
@@ -17,7 +18,7 @@ function setup() {
   // Maak het canvas van je widget
   createCanvas(300, 600);
 
-  teller = new Teller(200, 30);
+  teller = new Teller(280, 30);
 
   // maak een button en stel deze in
 
@@ -46,16 +47,45 @@ function draw() {
   // schrijf hieronder de code van je widget
   // hieronder wordt schematisch een knikkerbaan getekend
 
-  // achtergrond: houtkleur, kies gerust iets anders
+  // achtergrond: zwart
   background(50, 50, 50);
 
-  // twee dikke strepen als 'opvangbak'
-  stroke(0, 0, 0);
+  // strepen als baan
+  stroke(200, 200, 200);
   strokeWeight(10);
-  line(50, 20, 200, 50);
-  line(250, 70, 100, 100);
+  
+      // 2 banen boven pinnetjes
+      line(50, 20, 200, 50); // bovenste lijn links boven naar rechts beneden
+      line(250, 70, 100, 90); // 2e lijn rechs boven naar links beneden
 
-  teller.show();
+      // 2 banen als opvangbak onder pinnetjes
+      line(10, 210, 130, 230); // links
+      line(290, 210, 170, 230); // rechts
+
+      // 2 banen als divider van de balletjes
+      line(150, 260, 100, 280); // links
+      line(150, 260, 200, 280); // rechts
+
+      // 2 banen als opvangbak onderin
+      line(10, 550, 130, 570); // links
+      line(290, 550, 170, 570); // rechts
+
+      // pinnetjes als cirkels
+      noStroke();               // geen rand
+      fill(200, 200, 200);
+      ellipse(100, 150, 10, 10);
+
+
+  // veranderende gegevens
+  teller.show(); 
+
+  // tekst ter verduidelijking
+  noStroke();               // geen rand
+  fill(255, 255, 255);      // wit
+  textSize(14);
+  text("Aantal knikkers:", 175, 27); // print aantal knikkers bovenin. net iets lager dan cijfer
+  text("Toonhoogte:", 10, 260);
+  text("Toonhoogte:", 210, 260);
 }
 
 
