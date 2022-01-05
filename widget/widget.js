@@ -6,7 +6,14 @@ var wachttijd = 15;             // wachttijd voor het poortje in seconden
 const UPDATE_INTERVAL = 5000;   // tijd in milliseconden tussen het door widget opvragen van gegevens
 var button;
 var teller;
+var toonhoogteLinks;
+var toonhoogteRechts;
 var wachttijdInput;
+
+// globale variabelen tekenen widget
+var uiterstLinksY = 10;
+var uiterstRechtsY = 290;
+var middenY = 150;
 
 
 /**
@@ -19,6 +26,11 @@ function setup() {
   createCanvas(300, 600);
 
   teller = new Teller(280, 30);
+
+  /*
+  toonhoogteLinks = new ToonhoogteLinks(30, 280);
+  toonhoogteRechts = new ToonhoogteRechts(230, 280);
+  */
 
   // maak een button en stel deze in
 
@@ -56,19 +68,27 @@ function draw() {
   
       // 2 banen boven pinnetjes
       line(50, 20, 200, 50); // bovenste lijn links boven naar rechts beneden
-      line(250, 70, 100, 90); // 2e lijn rechs boven naar links beneden
+      line(uiterstRechtsY, 70, 100, 90); // 2e lijn rechs boven naar links beneden
 
       // 2 banen als opvangbak onder pinnetjes
-      line(10, 210, 130, 230); // links
-      line(290, 210, 170, 230); // rechts
+      line(uiterstLinksY, 210, middenY - 20, 230); // links
+      line(uiterstRechtsY, 210, middenY + 20, 230); // rechts
 
       // 2 banen als divider van de balletjes
-      line(150, 260, 100, 280); // links
-      line(150, 260, 200, 280); // rechts
+      line(middenY, 260, 100, 280); // links
+      line(middenY, 260, 200, 280); // rechts
+
+      // 2 banen als opvangbak onder de divider
+      line(uiterstLinksY, 320, middenY - 40, 360); // links
+      line(uiterstRechtsY, 320, middenY + 40, 360); // rechts
+
+      // 2 banen uit elkaar lopend
+      line(middenY - 10, 390, uiterstLinksY + 40, 440); // links
+      line(middenY + 10, 390, uiterstRechtsY - 40, 440); // rechts
 
       // 2 banen als opvangbak onderin
-      line(10, 550, 130, 570); // links
-      line(290, 550, 170, 570); // rechts
+      line(uiterstLinksY, 550, middenY - 20, 570); // links
+      line(uiterstRechtsY, 550, middenY + 20, 570); // rechts
 
       // pinnetjes als cirkels
       noStroke();               // geen rand
@@ -77,7 +97,10 @@ function draw() {
 
 
   // veranderende gegevens
-  teller.show(); 
+  teller.show();
+  /*
+  toonhoogteLinks.show();
+  toonhoogteRechts.show(); */
 
   // tekst ter verduidelijking
   noStroke();               // geen rand
