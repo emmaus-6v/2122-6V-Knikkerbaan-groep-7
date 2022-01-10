@@ -1,5 +1,5 @@
 # Verslag eindopdracht 6V
-### gemaakt door *--leerling1--*, *--leerling2--*, *etc*
+### gemaakt door *Sena Boyraz*, *Sharon de Hoog*, *Maayke Huijnen*, *Carlijn Pelk* en *Maureen Yeung*
 
 ---
 
