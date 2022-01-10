@@ -4,7 +4,7 @@
 ---
 
 ## Inleiding
-In het vakgebied van informatica wordt heel veel projectmatig gewerkt. Bij deze opdracht hebben we gewerkt aan een interactieve knikkerbaan die verbonden is met een zelfgemaakte webserver. Wij hebben hierbij de kennis en vaardigheden die we bij het vak informatica hebben opgedaan toegepast en geïntergreerd. Tot gevolg: ons Music Box.
+In het vakgebied van informatica wordt heel veel projectmatig gewerkt. Bij deze opdracht hebben we gewerkt aan een interactieve knikkerbaan die verbonden is met een zelfgemaakte webserver. Wij hebben hierbij de kennis en vaardigheden die we bij het vak informatica hebben opgedaan toegepast en geïntergreerd. Als resultaat ons Music Box.
 
 
 
