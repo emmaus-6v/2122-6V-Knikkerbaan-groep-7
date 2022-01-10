@@ -83,7 +83,8 @@ function getInstellingen(request, response) {
 // slaat doorgegeven instellingen op in de database
 function setInstellingen(request, response) {
   var huidigeRunID = geefHoogsteRunID();
-  var wachttijd = request.query.wachttijd
+  var wachttijd = request.query.wachttijd;
+  var hogeToon = request.query.hogeToon;
   var SQL = `INSERT INTO instellingen (run, stamp, wachttijdPoort)
              VALUES(?, CURRENT_TIMESTAMP, 'instelling')`
   db.prepare(SQL).run(huidigeRunID, wachttijd);
