@@ -9,6 +9,8 @@ var teller;
 var toonhoogteLinks;
 var toonhoogteRechts;
 var wachttijdInput;
+var toonhoogteLinksInput;
+var toonhoogteRechtsInput;
 
 // globale variabelen tekenen widget
 var uiterstLinksY = 10;
@@ -33,15 +35,26 @@ function setup() {
   */
 
   // maak een button en stel deze in
-
+    // button 1 wachttijd
   button = createButton('Verstuur');
   button.position = (200,575);
   button.mouseClicked(stuurNieuweInstellingen);
 
-  //invoerveld
+
+  //invoerveld wachttijd
   wachttijdInput = createInput();
-  wachttijdInput.position = (255, 70);
+  wachttijdInput.position = (400, uiterstRechtsY);
   wachttijdInput.size(50);
+
+  // invoerveld toonhoogte links
+  toonhoogteLinksInput = createInput();
+  toonhoogteLinksInput.position = (450, uiterstRechtsY);
+  toonhoogteLinksInput.size(50);
+
+  // invoerveld toonhoogte rechts
+  toonhoogteRechtsInput = createInput();
+  toonhoogteRechtsInput.position = (500, uiterstRechtsY);
+  toonhoogteRechtsInput.size(50);
 
 
 
@@ -145,7 +158,7 @@ function stuurNieuweInstellingen() {
   var request = new XMLHttpRequest();
 
   // maak een http-verzoek
-  request.open('GET', '/api/set/instellingen?wachtijd=' + wachtijdInput.value(), true)
+  request.open('GET', '/api/set/instellingen?wachtijd=' + wachtijdInput.value() + toonhoogteLinksInput.value() + toonhoogteRechtsInput.value(), true)
 
   // wat uitvoeren als het antwoord teruggegeven wordt?
   request.onload = function () {
