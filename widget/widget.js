@@ -17,6 +17,9 @@ var uiterstLinksY = 10;
 var uiterstRechtsY = 290;
 var middenY = 150;
 
+//radio button
+let radio;
+
 
 /**
  * setup
@@ -37,24 +40,36 @@ function setup() {
   // maak een button en stel deze in
     // button 1 wachttijd
   button = createButton('Verstuur');
-  button.position = (200,575);
+  button.position(200,575);
   button.mouseClicked(stuurNieuweInstellingen);
 
 
-  //invoerveld wachttijd
+  /*invoerveld wachttijd
   wachttijdInput = createInput();
-  wachttijdInput.position = (400, uiterstRechtsY);
+  wachttijdInput.position(400, uiterstRechtsY);
   wachttijdInput.size(50);
 
   // invoerveld toonhoogte links
   toonhoogteLinksInput = createInput();
-  toonhoogteLinksInput.position = (450, uiterstRechtsY);
+  toonhoogteLinksInput.position(450, uiterstRechtsY);
   toonhoogteLinksInput.size(50);
 
   // invoerveld toonhoogte rechts
   toonhoogteRechtsInput = createInput();
-  toonhoogteRechtsInput.position = (500, uiterstRechtsY);
+  toonhoogteRechtsInput.position(500, uiterstRechtsY);
   toonhoogteRechtsInput.size(50);
+  */
+
+
+    radio = createRadio();
+    radio.option('laag');
+    radio.option('hoog');
+    radio.style('width', '120px');
+    radio.position(200, 600);
+    //textAlign(CENTER);
+    //fill(255, 0, 0);
+  
+
 
 
 
@@ -69,6 +84,7 @@ function setup() {
  * uitgevoerd door de p5 library, nadat de setup functie klaar is
  */
 function draw() {
+  
   // schrijf hieronder de code van je widget
   // hieronder wordt schematisch een knikkerbaan getekend
 
@@ -107,6 +123,10 @@ function draw() {
       noStroke();               // geen rand
       fill(200, 200, 200);
       ellipse(100, 150, 10, 10);
+
+    // radio button
+    let val = radio.value();
+    text(val, width / 2, height / 2);
 
 
   // veranderende gegevens
