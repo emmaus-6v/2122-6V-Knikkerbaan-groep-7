@@ -17,7 +17,7 @@ CREATE TABLE instellingen (
   run INTEGER NOT NULL,
   stamp DATETIME NOT NULL,
   wachttijdPoort INTEGER NOT NULL
-  /* toonhoogte INTEGER NOT NULL -> ik wil dat je het kan zeggen low of high en dat het dan doorvoert bij de arduino of de toon hoog of laag is maar hoe refereer ik daarnaar? */ 
+  /* toonhoogte STRING -> ik wil dat je het kan zeggen low of high en dat het dan doorvoert bij de arduino of de toon hoog of laag is maar hoe refereer ik daarnaar? */ 
 );
 
 

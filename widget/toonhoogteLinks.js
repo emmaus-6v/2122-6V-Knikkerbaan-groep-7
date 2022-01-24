@@ -9,7 +9,7 @@ class ToonhoogteLinks {
   constructor(_x, _y) {
     this.x = _x;
     this.y = _y;
-    this.toon = laag;
+    this.toon = radio.value();
   }
 
   show() {
