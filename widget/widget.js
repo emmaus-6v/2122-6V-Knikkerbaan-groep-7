@@ -44,23 +44,6 @@ function setup() {
   button.mouseClicked(stuurNieuweInstellingen);
 
 
-  /*invoerveld wachttijd
-  wachttijdInput = createInput();
-  wachttijdInput.position(400, uiterstRechtsY);
-  wachttijdInput.size(50);
-
-  // invoerveld toonhoogte links
-  toonhoogteLinksInput = createInput();
-  toonhoogteLinksInput.position(450, uiterstRechtsY);
-  toonhoogteLinksInput.size(50);
-
-  // invoerveld toonhoogte rechts
-  toonhoogteRechtsInput = createInput();
-  toonhoogteRechtsInput.position(500, uiterstRechtsY);
-  toonhoogteRechtsInput.size(50);
-  */
-
-
     radio = createRadio();
     radio.option('laag');
     radio.option('hoog');
@@ -69,10 +52,6 @@ function setup() {
     //textAlign(CENTER);
     //fill(255, 0, 0);
   
-
-
-
-
   // om de ... milliseconden wordt 'vraagSensorData' uitgevoerd
   setInterval(vraagSensorData, UPDATE_INTERVAL);
 }
