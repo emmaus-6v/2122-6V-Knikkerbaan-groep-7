@@ -28,3 +28,4 @@ CREATE TABLE instellingen (
 INSERT INTO runs (stamp) VALUES (CURRENT_TIMESTAMP);
 INSERT INTO sensorData (run, stamp, aantalKnikkers) VALUES (1, CURRENT_TIMESTAMP, 3);
 INSERT INTO instellingen (run, stamp, wachttijdPoort) VALUES (1, CURRENT_TIMESTAMP, 15);
+/*INSERT INTO instellingenToon (run, stamp, toonhoogte) VALUES (1, CURRENT_TIMESTAMP, 15);*/

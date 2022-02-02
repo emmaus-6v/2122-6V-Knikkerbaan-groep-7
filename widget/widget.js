@@ -28,7 +28,7 @@ let radio;
  */
 function setup() {
   // Maak het canvas van je widget
-  createCanvas(300, 600);
+  createCanvas(300, 650);
 
   teller = new Teller(280, 30);
 
@@ -39,8 +39,9 @@ function setup() {
 
   // maak een button en stel deze in
     // button 1 wachttijd
+    
   button = createButton('Verstuur');
-  button.position(200,575);
+  button.position(20,620);
   button.mouseClicked(stuurNieuweInstellingen);
 
 
@@ -59,13 +60,16 @@ function setup() {
   toonhoogteRechtsInput.position(500, uiterstRechtsY);
   toonhoogteRechtsInput.size(50);
   */
-
+  
+  noStroke();               // geen rand
+  fill(255, 255, 255);      // wit
+  textSize(14);
 
     radio = createRadio();
-    radio.option('laag');
+    radio.option('laag   ');
     radio.option('hoog');
-    radio.style('width', '120px');
-    radio.position(200, 600);
+    //radio.style('width', '120px');
+    radio.position(100, 620);
     //textAlign(CENTER);
     //fill(255, 0, 0);
   
@@ -124,9 +128,10 @@ function draw() {
       fill(200, 200, 200);
       ellipse(100, 150, 10, 10);
 
-    // radio button
-    let val = radio.value();
-    text(val, width / 2, height / 2);
+    // streep onderin boven keuze menu
+    stroke(250, 50, 50);
+    strokeWeight(4);
+    line(uiterstLinksY, 600, uiterstRechtsY, 600);
 
 
   // veranderende gegevens
@@ -140,8 +145,14 @@ function draw() {
   fill(255, 255, 255);      // wit
   textSize(14);
   text("Aantal knikkers:", 175, 27); // print aantal knikkers bovenin. net iets lager dan cijfer
-  text("Toonhoogte:", 10, 260);
-  text("Toonhoogte:", 210, 260);
+  text("Toonhoogte:", width / 2 - 40, height / 2 - 20);
+  //text("Toonhoogte:", 210, 260);
+
+      // radio button
+      let val = radio.value();
+      //background(val);
+      text(val, width / 2 - 20, height / 2);
+  
 }
 
 
@@ -178,7 +189,9 @@ function stuurNieuweInstellingen() {
   var request = new XMLHttpRequest();
 
   // maak een http-verzoek
-  request.open('GET', '/api/set/instellingen?wachtijd=' + wachtijdInput.value() + toonhoogteLinksInput.value() + toonhoogteRechtsInput.value(), true)
+  request.open('GET', '/api/set/instellingen?wachttijd=' + wachttijdInput.value() + radio.selected(), true)
+
+    //toonhoogteLinksInput.value() + toonhoogteRechtsInput.value()
 
   // wat uitvoeren als het antwoord teruggegeven wordt?
   request.onload = function () {
