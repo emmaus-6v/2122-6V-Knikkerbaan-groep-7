@@ -1,7 +1,6 @@
 // Beginetje aan de class voor de toonhoogte
 
-/*
-class ToonhoogteRechts {
+class Toonhoogte {
   x;
   y;
   toon;
@@ -20,4 +19,3 @@ class ToonhoogteRechts {
     text(this.aantal, this.x, this.y);
   }
 }
-*/

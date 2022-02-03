@@ -6,11 +6,9 @@ var wachttijd = 15;             // wachttijd voor het poortje in seconden
 const UPDATE_INTERVAL = 5000;   // tijd in milliseconden tussen het door widget opvragen van gegevens
 var button;
 var teller;
-var toonhoogteLinks;
-var toonhoogteRechts;
+var toonhoogte;
 var wachttijdInput;
-var toonhoogteLinksInput;
-var toonhoogteRechtsInput;
+var toonhoogteInput;
 
 // globale variabelen tekenen widget
 var uiterstLinksY = 10;
