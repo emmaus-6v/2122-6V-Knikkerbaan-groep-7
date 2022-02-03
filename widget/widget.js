@@ -45,8 +45,6 @@ function setup() {
   button.mouseClicked(stuurNieuweInstellingen);
 
 
-<<<<<<< HEAD
-=======
   /*invoerveld wachttijd
   wachttijdInput = createInput();
   wachttijdInput.position(400, uiterstRechtsY);
@@ -67,7 +65,6 @@ function setup() {
   fill(255, 255, 255);      // wit
   textSize(14);
 
->>>>>>> bc330c496a7b5ec106cd3e3e0ad877da1d5dafb1
     radio = createRadio();
     radio.option('laag   ');
     radio.option('hoog');
