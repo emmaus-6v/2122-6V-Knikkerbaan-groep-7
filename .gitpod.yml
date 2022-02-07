@@ -20,7 +20,6 @@ ports:
     onOpen: open-browser
     visibility: public
 
-vscode:
-  extensions:
-    - gruntfuggly.activitusbar
-    - mhutchie.git-graph
+#vscode:
+#  extensions:
+#    - gruntfuggly.activitusbar

@@ -163,7 +163,7 @@ function stuurNieuweInstellingen() {
   var request = new XMLHttpRequest();
 
   // maak een http-verzoek
-  request.open('GET', '/api/set/instellingen?toonhoogte=' radio.selected(), true)
+  request.open('GET', '/api/set/instellingen?toonhoogte=', radio.selected(), true);
 
     //toonhoogteLinksInput.value() + toonhoogteRechtsInput.value()
 
