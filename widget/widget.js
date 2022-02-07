@@ -41,23 +41,6 @@ function setup() {
   button = createButton('Verstuur');
   button.position(20,620);
   button.mouseClicked(stuurNieuweInstellingen);
-
-
-  /*invoerveld wachttijd
-  wachttijdInput = createInput();
-  wachttijdInput.position(400, uiterstRechtsY);
-  wachttijdInput.size(50);
-
-  // invoerveld toonhoogte links
-  toonhoogteLinksInput = createInput();
-  toonhoogteLinksInput.position(450, uiterstRechtsY);
-  toonhoogteLinksInput.size(50);
-
-  // invoerveld toonhoogte rechts
-  toonhoogteRechtsInput = createInput();
-  toonhoogteRechtsInput.position(500, uiterstRechtsY);
-  toonhoogteRechtsInput.size(50);
-  */
   
   noStroke();               // geen rand
   fill(255, 255, 255);      // wit
@@ -130,9 +113,6 @@ function draw() {
 
   // veranderende gegevens
   teller.show();
-  /*
-  toonhoogteLinks.show();
-  toonhoogteRechts.show(); */
 
   // tekst ter verduidelijking
   noStroke();               // geen rand
@@ -183,7 +163,7 @@ function stuurNieuweInstellingen() {
   var request = new XMLHttpRequest();
 
   // maak een http-verzoek
-  request.open('GET', '/api/set/instellingen?wachttijd=' + wachttijdInput.value() + radio.selected(), true)
+  request.open('GET', '/api/set/instellingen?toonhoogte=' radio.selected(), true)
 
     //toonhoogteLinksInput.value() + toonhoogteRechtsInput.value()
 

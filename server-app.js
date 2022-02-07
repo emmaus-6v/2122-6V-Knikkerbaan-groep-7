@@ -88,7 +88,7 @@ function setInstellingen(request, response) {
   var lageToon = request.query.lageToon;
   var SQL = `INSERT INTO instellingen (run, stamp, wachttijdPoort)
              VALUES(?, CURRENT_TIMESTAMP, ?)`
-  db.prepare(SQL).run(huidigeRunID, hogeToon);
+  db.prepare(SQL).run(huidigeRunID, hogeToon, wachttijd, lageToon);
   response.status(200).send();
 }
 
