@@ -153,7 +153,7 @@ function vraagSensorData() {
   }
 
   // verstuur het request
-  request.send()
+  request.send();
 }
 
 
@@ -180,5 +180,5 @@ function stuurNieuweInstellingen() {
   }
 
   // verstuur het request
-  request.send()
+  request.send();
 }
