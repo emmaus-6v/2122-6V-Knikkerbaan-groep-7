@@ -16,6 +16,6 @@ class Toonhoogte {
     fill(255, 255, 255);      // wit
     textSize(20);
     // print toonhoogte in widget
-    text(this.aantal, this.x, this.y);
+    text(this.toon, this.x, this.y);
   }
 }
