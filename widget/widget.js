@@ -76,35 +76,71 @@ function draw() {
   stroke(200, 200, 200);
   strokeWeight(10);
   
-      // 2 banen boven pinnetjes
-      line(50, 20, 200, 50); // bovenste lijn links boven naar rechts beneden
-      line(uiterstRechtsY, 70, 100, 90); // 2e lijn rechs boven naar links beneden
-
-      // 2 banen als opvangbak onder pinnetjes
-      line(uiterstLinksY, 210, middenY - 20, 230); // links
-      line(uiterstRechtsY, 210, middenY + 20, 230); // rechts
-
-      // 2 banen als divider van de balletjes
-      line(middenY, 260, 100, 280); // links
-      line(middenY, 260, 200, 280); // rechts
-
-      // 2 banen als opvangbak onder de divider
-      line(uiterstLinksY, 320, middenY - 40, 360); // links
-      line(uiterstRechtsY, 320, middenY + 40, 360); // rechts
-
-      // 2 banen uit elkaar lopend
-      line(middenY - 10, 390, uiterstLinksY + 40, 440); // links
-      line(middenY + 10, 390, uiterstRechtsY - 40, 440); // rechts
-
-      // 2 banen als opvangbak onderin
-      line(uiterstLinksY, 550, middenY - 20, 570); // links
-      line(uiterstRechtsY, 550, middenY + 20, 570); // rechts
-
-      // pinnetjes als cirkels
-      noStroke();               // geen rand
-      fill(200, 200, 200);
-      ellipse(100, 150, 10, 10);
-
+        // 2 banen boven pinnetjes
+        line(50, 20, 200, 50); // bovenste lijn links boven naar rechts beneden
+        line(uiterstRechtsY, 70, 100, 90); // 2e lijn rechs boven naar links beneden
+  
+  
+        // 2 banen als opvangbak onder pinnetjes
+        line(uiterstLinksY, 210, middenY - 20, 230); // links
+        line(uiterstRechtsY, 210, middenY + 20, 230); // rechts
+  
+  
+        // 2 banen als divider van de balletjes
+        line(middenY, 260, 100, 280); // links
+        line(middenY, 260, 200, 280); // rechts
+  
+  
+        // 2 banen als opvangbak onder de divider
+        line(uiterstLinksY, 300, middenY - 40, 340); // links
+        line(uiterstRechtsY, 300, middenY + 40, 340); // rechts
+  
+  
+        // 2 banen uit elkaar lopend
+        line(middenY - 10, 350, uiterstLinksY + 40, 400); // links
+        line(middenY + 10, 350, uiterstRechtsY - 40, 400); // rechts
+  
+  
+        // 2 banen als opvangbak 
+        line(uiterstLinksY, 420, middenY - 40, 460); // links
+        line(uiterstRechtsY, 420, middenY + 40, 460); // rechts
+  
+  
+        // 2 banen uit elkaar lopend
+        line(middenY - 10,470, uiterstLinksY + 40, 520); // links
+        line(middenY + 10, 470, uiterstRechtsY - 40, 520); // rechts
+  
+  
+        // 2 banen als opvangbak onderin
+        line(uiterstLinksY, 550, middenY - 20, 570); // links
+        line(uiterstRechtsY, 550, middenY + 20, 570); // rechts
+  
+  
+        // pinnetjes als cirkels
+        noStroke();               // geen rand
+        fill(200, 200, 200);
+        ellipse(100, 150, 10, 10);
+        ellipse(110, 170, 10, 10);
+        ellipse(80, 120, 10, 10);
+        ellipse(70, 140, 10, 10);
+        ellipse(100, 180, 10, 10);
+        ellipse(40, 190, 10, 10);
+        ellipse(50, 160, 10, 10);
+        ellipse(100, 110, 10, 10);
+        ellipse(40, 110, 10, 10);
+        ellipse(80, 180, 10, 10);
+      
+        ellipse(200, 150, 10, 10);
+        ellipse(210, 170, 10, 10);
+        ellipse(180, 120, 10, 10);
+        ellipse(170, 140, 10, 10);
+        ellipse(200, 180, 10, 10);
+        ellipse(140, 190, 10, 10);
+        ellipse(150, 160, 10, 10);
+        ellipse(200, 110, 10, 10);
+        ellipse(140, 110, 10, 10);
+        ellipse(180, 180, 10, 10);
+        
     // streep onderin boven keuze menu
     stroke(250, 50, 50);
     strokeWeight(4);
