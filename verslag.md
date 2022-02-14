@@ -35,14 +35,44 @@ In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerba
 
 ## Evaluaties van scrumplanningen:
 
-### week 43
+### week 43 (25 okt - 31 okt)
+Scrumplanning gemaakt
 
-### week 44
+### week 44 (1 nov - 7 nov) 
 
-### week 45
+### week 45 (8 nov - 14 nov)
 
-### week ...
+### week 46 (15 nov - 21 nov)
 
+### week 47 (22 nov - 28 nov)
+
+### week 48 (29 nov - 5 dec)
+
+### week 49 (6 dec - 12 dec)
+
+### week 50 (13 dec - 19 dec)
+
+### week 51 (20 dec - 26 dec)
+
+### week 52 (27 dec - 2 jan)
+
+### week 1 (3 jan - 9 jan)
+
+### week 2 (10 jan - 16 jan)
+
+### week 3 (17 jan - 23 jan)
+
+### week 4 (24 jan - 30 jan)
+
+### week 5 (31 jan - 6 feb)
+Constructor toonhoogte maken
+
+### week 6 (7 feb - 13 feb)
+Keuzmenu toonhoogte: laag/hoog maken
+verbeteren constructor toonhoogte
+
+### week 7 (14 feb - 20 feb)
+Widget afgemaakt 
 
 
 ## Technische verantwoording
