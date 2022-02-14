@@ -21,6 +21,7 @@ CREATE TABLE instellingen (
 );
 
 
+
 /* Indien je standaard wat gegevens in de database wilt,
    voeg hieronder dan INSERT regels to */
 
