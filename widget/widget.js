@@ -159,9 +159,9 @@ function draw() {
   //text("Toonhoogte:", 210, 260);
 
       // radio button
-      let val = radio.value();
+      let toonhoogteInput = radio.selected();
       //background(val);
-      text(val, width / 2 - 20, height / 2);
+      text(toonhoogteInput, width / 2 - 20, height / 2);
   
 }
 
@@ -199,7 +199,7 @@ function stuurNieuweInstellingen() {
   var request = new XMLHttpRequest();
 
   // maak een http-verzoek
-  request.open('GET', '/api/set/instellingen?toonhoogte=', radio.selected(), true);
+  request.open('GET', '/api/set/instellingen?toonhoogte=', toonhoogteInput, true);
 
     //toonhoogteLinksInput.value() + toonhoogteRechtsInput.value()
 
