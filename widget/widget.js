@@ -47,7 +47,7 @@ function setup() {
   textSize(14);
 
     radio = createRadio();
-    radio.option('laag   ');
+    radio.option('laag');
     radio.option('hoog');
     //radio.style('width', '120px');
     radio.position(100, 620);
@@ -158,10 +158,10 @@ function draw() {
   text("Toonhoogte:", width / 2 - 40, height / 2 - 20);
   //text("Toonhoogte:", 210, 260);
 
-      // radio button
-      let toonhoogteInput = radio.selected();
-      //background(val);
-      text(toonhoogteInput, width / 2 - 20, height / 2);
+  // radio button
+  toonhoogteInput = radio.selected();
+  //background(val);
+  text(toonhoogteInput, width / 2 - 20, height / 2);
   
 }
 
@@ -199,7 +199,7 @@ function stuurNieuweInstellingen() {
   var request = new XMLHttpRequest();
 
   // maak een http-verzoek
-  request.open('GET', '/api/set/instellingen?toonhoogte=', toonhoogteInput, true);
+  request.open('GET', '/api/set/instellingen?toonhoogte=' + toonhoogteInput, true);
 
     //toonhoogteLinksInput.value() + toonhoogteRechtsInput.value()
 
