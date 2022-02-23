@@ -2,7 +2,7 @@
 
 // globale variabelen
 var aantalKnikkersBoven = 0;    // aantal knikkers dat bovenin is binnengekomen
-var wachttijd = 15;             // wachttijd voor het poortje in seconden
+var wachttijd = 5000;             // wachttijd voor het poortje in seconden
 const UPDATE_INTERVAL = 5000;   // tijd in milliseconden tussen het door widget opvragen van gegevens
 var button;
 var teller;
