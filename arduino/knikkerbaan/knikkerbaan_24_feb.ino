@@ -14,8 +14,8 @@ const int TELLER_A_PIN = 5;       // pin waarop IR-sensor voor Teller A is aange
 // const int TELLER_B_PIN = 10;       // pin waarop IR-sensor voor Teller B is aangesloten //voor teller B
 // hier nieuwe teller toevoegen
 
-const int BUZZERPINA = 9; //buzzer to arduino pin 9
-//const int BUZZERPINB = 11; //buzzer to arduino pin 10 //voor teller B
+const int BUZZERPIN = 9; //buzzer to arduino pin 9 voor teller A en B 
+
 //
 //
 //void setup(){
