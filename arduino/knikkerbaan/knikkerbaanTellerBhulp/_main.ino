@@ -17,9 +17,9 @@ void setup() {
 //  pinMode(BUZZERPINB, OUTPUT);
   poortBoven.begin(BOVEN_POORT_PIN, 90, 20);
 
-  //wifi.begin();
+  wifi.begin();
 
-  //wifi.stuurVerzoek("/api/set/nieuwerun", "");
+  wifi.stuurVerzoek("/api/set/nieuwerun", "");
 
   poortBoven.open();
 }
@@ -58,6 +58,19 @@ void loop() {
       Serial.print("Er zijn nu zoveel knikkers geteld: ");
       Serial.println(tellerA.getAantal());
 
+      /*// intellingen ophalen door Arduino > filmpje
+      String data = "knikkers=";
+      data += tellerA.getAantal();
+
+      wifi.stuurVerzoek("/api/set/sensordata", data.c_str());
+
+      String serverAntwoord = wifi.stuurVerzoek("/api/get/instellingen", "");
+      Serial.println(serverAntwoord);
+
+      JSONVar ontvangenInstellingen = JSON.parse(serverAntwoord);
+
+      if (JSON.typeof(ontvangenInstellingen != "undefined"))
+*/
 
       // bereken de nieuwe tijd waarop er weer met de server gecommuniceerd moet worden
       tijdVoorContactMetServer = millis() + (unsigned long)serverContactInterval * 1000;
