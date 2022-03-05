@@ -58,7 +58,7 @@ void loop() {
       Serial.print("Er zijn nu zoveel knikkers geteld: ");
       Serial.println(tellerA.getAantal());
 
-      /*// intellingen ophalen door Arduino > filmpje
+      // intellingen ophalen door Arduino > filmpje
       String data = "knikkers=";
       data += tellerA.getAantal();
 
@@ -69,8 +69,13 @@ void loop() {
 
       JSONVar ontvangenInstellingen = JSON.parse(serverAntwoord);
 
-      if (JSON.typeof(ontvangenInstellingen != "undefined"))
-*/
+      if (JSON.typeof(ontvangenInstellingen != "undefined")){
+        serverContactInterval = (int)ontvangenInstellingen["toonhoogte"];
+      }
+      else {
+        Serial.println("FOUT: geen serverAntwoord");
+      }
+    // server communucatie afgerond
 
       // bereken de nieuwe tijd waarop er weer met de server gecommuniceerd moet worden
       tijdVoorContactMetServer = millis() + (unsigned long)serverContactInterval * 1000;
