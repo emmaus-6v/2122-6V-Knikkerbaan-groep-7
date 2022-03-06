@@ -55,6 +55,7 @@ Idee knikkerbaan uitwerken en schets maken
 
 ### week 50 (13 dec - 19 dec)
 Begin design WebWidget
+Alles van video's Cammeraat ingevoegd
 
 ### week 51 (20 dec - 26 dec)
 Vordering in de WebWidget
@@ -73,25 +74,29 @@ WebWidget verbeterd
 
 ### week 5 (31 jan - 6 feb)
 Constructor toonhoogte maken
+toonhoogte in database zetten
 
 ### week 6 (7 feb - 13 feb)
-Keuzmenu toonhoogte: laag/hoog maken
+Keuzemenu toonhoogte: laag/hoog maken
 verbeteren constructor toonhoogte
 
 ### week 7 (14 feb - 20 feb)
 Widget afgemaakt 
 
 
+
 ## Technische verantwoording
 Geef hier bijvoorbeeld de volgene informatie, maar voel je vrij er informatie aan toe te voegen.
 
-De Arduino werkt op de volgende manier:
+De Arduino werkt op de volgende manier: Teller; Wanneer de kinkker langs de sensoren komt wordt dat doorgegeven aan de arduino, waardoor hij optelt hoeveel knikkers er langs zijn gekomen.
+Sensor voor de buzzer; de sensor geeft door dat er een knikker langs komt en dan geeft het door dat de buzzer aan moet gaan.
 
-De knikkerbaan en de widget wisselen de volgende data met elkaar uit: De hoeveelheid knikkers die langs komen en of er een lage of hoge toonhoogte wordt afgespeeld.
+De knikkerbaan en de widget wisselen de volgende data met elkaar uit: De hoeveelheid knikkers die langs komen, de wachttijd en of er een lage of hoge toonhoogte wordt afgespeeld.
 
-We hebben dat op deze manier genormaliseerd in een database opgenomen (neem een strokendiagram op). De reden dat we voor ... kiezen is...
+We hebben dat in een database opgenomen via de naam toonhoogte, deze wordt ingevuld door de string laag of hoog dat aangeklikt wordt op onze website. De reden dat we voor toonhoogte hebben gekozen is omdat dit ook de vraag is die we hebben gesteld en dat dit de buzzer een geluid laat maken. We hebben ook voor toonhoogte gekozen, dat we dit gebruiken in onze knikkerbaan, omdat Sharon veel met muziek heeft en we dachten dat dit ook leuk was om in de knikkerbaan te verwerken. 
 
-Uitdagingen die we tegenkwamen:
+Uitdagingen die we tegenkwamen: De arduino was vooral voor ons een grote uitdaging, dit hebben wij uiteindelijk wel goed gemaakt door de tijd die wij hebben gekregen. Wij kregen in het begin steeds een foutmelding en daarna werkte de 2e sensor steeds niet terwijl alles goed door wordt gestuurd.
+
 
 
 ## Reflectie op opdracht
@@ -99,6 +104,7 @@ Uitdagingen die we tegenkwamen:
 *(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
 
 #### --Sharon de Hoog--
+Dit project heeft mij veel geleerd, hoewel ik in het begin niet begreep wat een knikkerbaan te maken had met code. Ik heb veel hulp gekregen door de video's, later kreeg ik het zelf door een had ik een deel van de widget gemaakt. Er waren een paar fouten in de samenwerking, dit kwam vooral door de communicatie tussen iedereen. Later zijn we er uit gekomen en hebben we het project toch nog af kunnen maken. Het project was moeilijk om aan te beginnen maar uiteindelijk toch wel grappig om te doen.
 
 #### --Maayke Huijnen--
 
