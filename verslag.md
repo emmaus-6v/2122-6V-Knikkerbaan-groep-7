@@ -114,7 +114,7 @@ De knikkerbaan en de widget wisselen de volgende data met elkaar uit: De hoeveel
 
 We hebben dat in een database opgenomen via de naam toonhoogte, deze wordt ingevuld door de string laag of hoog dat aangeklikt wordt op onze website. De reden dat we voor toonhoogte hebben gekozen is omdat dit ook de vraag is die we hebben gesteld en dat dit de buzzer een geluid laat maken. We hebben ook voor toonhoogte gekozen, dat we dit gebruiken in onze knikkerbaan, omdat Sharon veel met muziek heeft en we dachten dat dit ook leuk was om in de knikkerbaan te verwerken. 
 
-Uitdagingen die we tegenkwamen: De arduino was vooral voor ons een grote uitdaging, dit hebben wij uiteindelijk wel goed gemaakt door de tijd die wij hebben gekregen. Wij kregen in het begin steeds een foutmelding en daarna werkte de 2e sensor steeds niet terwijl alles goed door wordt gestuurd.
+Uitdagingen die we tegenkwamen: De arduino was vooral voor ons een grote uitdaging, dit hebben wij uiteindelijk wel goed gemaakt door de tijd die wij hebben gekregen. Wij kregen in het begin steeds een foutmelding, de servo die niet meewerkte en daarna werkte de 2e sensor steeds niet terwijl alles goed door wordt gestuurd.
 
 
 
