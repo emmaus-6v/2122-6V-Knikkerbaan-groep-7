@@ -41,6 +41,7 @@ Scrumplanning gemaakt
 
 ### week 44 (1 nov - 7 nov) 
 Brainstormen over ons idee voor de knikkerbaan
+Schets van de knikkerbaan maken
 
 ### week 45 (8 nov - 14 nov)
 Idee knikkerbaan uitwerken en schets maken
@@ -78,13 +79,27 @@ details toevoegen op de plank en alles monteren
 Constructor toonhoogte maken
 toonhoogte in database zetten
 plank af, alles gemonteerd zover het kon
+Inleiding verslag
+Servo maken
 
 ### week 6 (7 feb - 13 feb)
-Keuzemenu toonhoogte: laag/hoog maken
+Keuzmenu toonhoogte: laag/hoog maken
 verbeteren constructor toonhoogte
+Servo verbeteren
+Buzzer maken
 
 ### week 7 (14 feb - 20 feb)
 Widget afgemaakt 
+Teller A maken
+Teller A verbeteren
+
+### week 8 (21 feb - 27 feb)
+
+### week 9 (28 feb - 6 mrt)
+Buzzer verbeteren
+Arduino teller B
+Arduino teller C
+Servo aanpassen
 
 
 
