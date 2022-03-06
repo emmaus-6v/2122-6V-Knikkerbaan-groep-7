@@ -35,6 +35,7 @@ Door de server op de starten zie jij een digitale versie van onze knikkerbaan.
 De poort kan open en dicht staan. Na elke 15 seconden verandert de status van de poort, wat gekoppeld zit aan de servo op de knikkerbaan bord. De servo roteert 90 graden waardoor er knikkers wel/niet doorgelaten worden, afhankelijk van de status van de poort.
 
 ## Evaluaties van scrumplanningen:
+We hebben vooraf niet een exacte planning gemaakt, maar de opdracht per week aangekeken. Dit was achteraf niet de beste keuze, aangezien we uiteindelijk in de knoop raakten doordat we de week voor de deadline nog met veel problemen (niet werkende code) zaten, terwijl we  die week het ook erg druk hadden met school. 
 
 ### week 43 (25 okt - 31 okt)
 Scrumplanning gemaakt
