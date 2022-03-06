@@ -138,3 +138,4 @@ De knikkerbaan was naast een lastige opdracht ook een leerproces. Het project wa
 
 
 ## Slot
+Het is duidelijk dat we allemaal dezelfde mening delen over wat beter kon. Wat we ook weten is dat we veel tijd en energie in dit project hebben gestoken. We zijn blij dat we het afhebben en kunnen niet wachten om de knikker door ons werk te zien rollen. Het is misschien niet het meest perfecte project, maar het is wel ons project en we zijn er trots op. 
