@@ -120,7 +120,7 @@ Uitdagingen die we tegenkwamen: De arduino was vooral voor ons een grote uitdagi
 
 ## Reflectie op opdracht
 #### --Sena Boyraz--
-*(50 - 100 woorden. Geef o.a. wat je tijdens deze opdracht beter onder de knie hebt gekregen en welk leerpunt je voor jezelf meeneemt)*
+Het is geen geheim dat ik niet de grootste informatica fan ben, toch had ik enigzins plezier in het maken van deze opdracht. Maayke en ik hebben de knikkerbaan voor onze rekening genomen. Het was wel wat moeilijker dan we hadden verwacht, maar wie zou kunnen raden dat verven, zagen en boren daadwerkelijk therapeutisch zou zijn. Dankzij deze opdracht ga ik na mijn examens een pottenbakkencursus volgen. Het leerpuntje wat ik meeneem uit deze ervaring is zeker dat ik moet werken aan mijn communicatie vaardigheden. Ik dacht altijd een uitstekende communicator te zijn, maar deze opdracht heeft mij geleerd dat alleen gezellig zijn niet genoeg is voor een samenwerking. We hebben het uiteindelijk wel opgelost gelukkig. Dit zal vast niet de laatste keer zijn dat ik een groepsproject heb, dus voor de volgende keer neem ik plannen en het maken van duidelijke afspraken als focuspunt. 
 
 #### --Sharon de Hoog--
 Dit project heeft mij veel geleerd, hoewel ik in het begin niet begreep wat een knikkerbaan te maken had met code. Ik heb veel hulp gekregen door de video's, later kreeg ik het zelf door een had ik een deel van de widget gemaakt. Er waren een paar fouten in de samenwerking, dit kwam vooral door de communicatie tussen iedereen. Later zijn we er uit gekomen en hebben we het project toch nog af kunnen maken. Het project was moeilijk om aan te beginnen maar uiteindelijk toch wel grappig om te doen.
