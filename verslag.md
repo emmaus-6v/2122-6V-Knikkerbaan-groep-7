@@ -68,13 +68,16 @@ Basis design WebWidget af
 ### week 2 (10 jan - 16 jan)
 
 ### week 3 (17 jan - 23 jan)
+verven van de plank en alles op maat zagen
 
 ### week 4 (24 jan - 30 jan)
 WebWidget verbeterd
+details toevoegen op de plank en alles monteren
 
 ### week 5 (31 jan - 6 feb)
 Constructor toonhoogte maken
 toonhoogte in database zetten
+plank af, alles gemonteerd zover het kon
 
 ### week 6 (7 feb - 13 feb)
 Keuzemenu toonhoogte: laag/hoog maken
@@ -107,6 +110,7 @@ Uitdagingen die we tegenkwamen: De arduino was vooral voor ons een grote uitdagi
 Dit project heeft mij veel geleerd, hoewel ik in het begin niet begreep wat een knikkerbaan te maken had met code. Ik heb veel hulp gekregen door de video's, later kreeg ik het zelf door een had ik een deel van de widget gemaakt. Er waren een paar fouten in de samenwerking, dit kwam vooral door de communicatie tussen iedereen. Later zijn we er uit gekomen en hebben we het project toch nog af kunnen maken. Het project was moeilijk om aan te beginnen maar uiteindelijk toch wel grappig om te doen.
 
 #### --Maayke Huijnen--
+Bij deze opdracht waren er veel opstart problemen omdat we niet wisten waar we moesten beginnnen. Het design van de baan was al snel gemaakt. Na het starten van het project en de eerste dingen werkende krijgen werd er een duidelijk taakverdeling gemaakt. Sena en ik gingen het bord helemaal maken. Een grote taak dan dat we eerst hadden verwacht. Ik moet eerlijk toegeven dat Sena zeker meer tijd na school heeft besteed aan het bord maar vanwege medische redenen en het feit dat ik vaak na school naar het ziekenhuis moest was dit voor mij niet mogelijk. De samenwerkingen liep op sommige momenten wat stroef maar uiteindelijk zijn we eruit gekomen. Ik had zelf liever meer tijd besteed aan deze opdracht maar door de eerder genoemde redenen was dit simpel weg niet mogelijk. Ik heb veel van dit project geleerd en geloof me wanneer ik zeg dat ik voor dit project echt nog niet kon boren. 
 
 #### --Carlijn Pelk--
 Tijdens deze opdracht hebben we veel geleerd. Zo was dit de eerste keer dat we moesten werken met verschillende code talen die met elkaar moeten comminuceren. Daarnaast hebben we geleerd taken te verdelen om er zo voor te zorgen dat alles gedaan werd. Tenslotte was het voor ons allemaal nieuw om met zo een grote groep samen te werken, wat enkele complicaties met zich mee bracht maar uiteindelijk erg leervol was. Omdat dit soort samenwerking nieuw was, waren hierin nog wel wat verbeterpuntjes. Daarnaast was het voor ons moeilijk om te beginnen met de opdracht omdat we niet zo goed wisten hoe te beginnen, maar toen we eenmaal begonnen, werd alles duidelijker. Overal was het erg leervol.
