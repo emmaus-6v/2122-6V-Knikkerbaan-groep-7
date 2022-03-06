@@ -102,11 +102,12 @@ Arduino teller C
 Servo aanpassen
 
 
-
 ## Technische verantwoording
-Geef hier bijvoorbeeld de volgene informatie, maar voel je vrij er informatie aan toe te voegen.
+Geef hier bijvoorbeeld de volgende informatie, maar voel je vrij er informatie aan toe te voegen.
 
-De Arduino werkt op de volgende manier: Teller; Wanneer de kinkker langs de sensoren komt wordt dat doorgegeven aan de arduino, waardoor hij optelt hoeveel knikkers er langs zijn gekomen.
+De Arduino werkt op de volgende manier: 
+Servo; Elke 15 seconden roteert de servo doordat de status van de poort verandert.
+Teller; Wanneer de kinkker langs de sensoren komt wordt dat doorgegeven aan de arduino, waardoor hij optelt hoeveel knikkers er langs zijn gekomen.
 Sensor voor de buzzer; de sensor geeft door dat er een knikker langs komt en dan geeft het door dat de buzzer aan moet gaan.
 
 De knikkerbaan en de widget wisselen de volgende data met elkaar uit: De hoeveelheid knikkers die langs komen, de wachttijd en of er een lage of hoge toonhoogte wordt afgespeeld.
