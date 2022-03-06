@@ -133,7 +133,7 @@ Bij deze opdracht waren er veel opstart problemen omdat we niet wisten waar we m
 Tijdens deze opdracht hebben we veel geleerd. Zo was dit de eerste keer dat we moesten werken met verschillende code talen die met elkaar moeten comminuceren. Daarnaast hebben we geleerd taken te verdelen om er zo voor te zorgen dat alles gedaan werd. Tenslotte was het voor ons allemaal nieuw om met zo een grote groep samen te werken, wat enkele complicaties met zich mee bracht maar uiteindelijk erg leervol was. Omdat dit soort samenwerking nieuw was, waren hierin nog wel wat verbeterpuntjes. Daarnaast was het voor ons moeilijk om te beginnen met de opdracht omdat we niet zo goed wisten hoe te beginnen, maar toen we eenmaal begonnen, werd alles duidelijker. Overal was het erg leervol.
 
 #### --Maureen Yeung--
-
+De knikkerbaan was naast een lastige opdracht ook een leerproces. Het project was ingewikkeld en de Arduino had er vaker niet zin in dan wel. Maar vooral de samenwerking was niet soepel verlopen, door gebrek aan communicatie. Daarnaast was er vooraf niet een exacte planning gemaakt, maar slechts een schets van hoe we de periode zouden gaan vorm geven wat toentertijd een goed idee leek zodat we vrije keuzes konden maken maar dit heeft ons juist later tegengewerkt. Een goede planning is al het halve werk en daarom is dat dan ook wat ik uit dit project mee zal nemen.
 
 
 
