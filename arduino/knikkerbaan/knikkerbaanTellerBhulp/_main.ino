@@ -10,6 +10,8 @@ unsigned long tijdVoorContactMetServer = 0;
 unsigned long tijdOmBuzzerUitTeZetten = 0;
 int vorigeAantalknikkers = 0;
 int vorigeAantalknikkersB = 0;
+int toonBuzzer = 500; // standaart een toonhoogte op 1000, zodat als contact niet goed toch een toon
+int toonOntvangen;
 
 void setup() {
   Serial.begin(9600);
@@ -30,14 +32,14 @@ void loop() {
   tellerA.update();
   if (vorigeAantalknikkers < tellerA.getAantal()) {
     // digitalWrite(BUZZERPIN, HIGH);
-    tone(BUZZERPIN, 1000, 250);
+    tone(BUZZERPIN, toonBuzzer, 250);
     Serial.println("zet de buzzer aan");
     
 //laat de teller B detecteren:
     tellerB.update();
     if (vorigeAantalknikkersB = tellerB.getAantal()) {
       // digitalWrite(BUZZERPIN, HIGH);
-      tone(BUZZERPIN, 200, 250);
+      tone(BUZZERPIN, toonBuzzer, 250);
       Serial.println("zet de buzzer aan");
 
     }
@@ -70,12 +72,23 @@ void loop() {
       JSONVar ontvangenInstellingen = JSON.parse(serverAntwoord);
 
       if (JSON.typeof(ontvangenInstellingen != "undefined")){
-        serverContactInterval = (int)ontvangenInstellingen["toonhoogte"];
+        toonOntvangen = (int)ontvangenInstellingen["toonhoogte"];
       }
       else {
         Serial.println("FOUT: geen serverAntwoord");
       }
-    // server communucatie afgerond
+
+       // server communucatie afgerond
+
+      // zorgen voor verandering in toonhoogte bij ontvangen info
+      if (toonOntvangen = "hoog"){
+        toonBuzzer = 1000; 
+      }
+      else{
+        toonBuzzer = 300;
+      }
+
+
 
       // bereken de nieuwe tijd waarop er weer met de server gecommuniceerd moet worden
       tijdVoorContactMetServer = millis() + (unsigned long)serverContactInterval * 1000;
