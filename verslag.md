@@ -18,7 +18,7 @@ De knikkerbaan kan knikkers bovenin correct opvangen. De binnenkomende knikkers 
 De knikkerbaan zendt de hoeveelheid getelde knikkers naar een server die de gegevens opslaat in een database. Deze server kan per 'run' (d.w.z. een nieuwe keer aangaan) gegevens bijhouden.
 
 ### feature 3: Widget wisselt info uit met knikkerbaan
-In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en duur dat de poort openstaat worden hierin getoond. De duur dat de poort openstaat kan hierin worden veranderd. De knikkerbaan kan deze wachttijd van de server ontvangen en zijn werking erop aanpassen.
+In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerbaan schematisch weer in een frame van 800x400px. De getelde knikkers en toonhoogte worden hierin getoond. Of je een lage of hoge toon wilt horen bij het langskomen van een knikker kan hierin worden gekozen. De knikkerbaan kan deze keuze gemaakt via de server ontvangen en zijn werking erop aanpassen.
 
 ### feature 4: Interactieve toonhoogte
 Via onze webwidget kan jij zelf interactief invloed hebben op de knikkerbaan! Door aan te geven of jij een hoge of lage toon wilt horen in de widget, verandert de toonhoogte van de buzzers aangesloten op de knikkerbaan.
