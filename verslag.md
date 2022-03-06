@@ -24,14 +24,15 @@ In de browser kan met een URL een widget worden geladen. Deze geeft de knikkerba
 Via onze webwidget kan jij zelf interactief invloed hebben op de knikkerbaan! Door aan te geven of jij een hoge of lage toon wilt horen in de widget, verandert de toonhoogte van de buzzers aangesloten op de knikkerbaan.
 
 
-### feature 5: Buzzer geluiden
-Op de kikkerbaan staan sensoren aangesloten elke knikker die langs komt regristreren waarna er een buzzer afgaat. Vandaar de naam MusicBox! 
+### feature 5 en 6: Sensor en buzzer geluiden
+Op de kikkerbaan staan sensoren aangesloten. Wanneer een knikker langs de sensor beweegt, wordt het aantal getelde knikkers verhoogd. Hierdoor gaat de buzzer af. Vandaar de naam MusicBox! 
 
 
 ### feature 6: Webwidget
 Door de server op de starten zie jij een digitale versie van onze knikkerbaan. 
 
-
+### feauture 7: Servo
+De poort kan open en dicht staan. Na elke 15 seconden verandert de status van de poort, wat gekoppeld zit aan de servo op de knikkerbaan bord. De servo roteert 90 graden waardoor er knikkers wel/niet doorgelaten worden, afhankelijk van de status van de poort.
 
 ## Evaluaties van scrumplanningen:
 
